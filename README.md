@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ryelbanfield.github.io/Newsweek-Clone/)
 
 ## Authors
 
@@ -34,4 +34,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE) licensed.
