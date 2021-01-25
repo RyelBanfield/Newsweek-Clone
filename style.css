@@ -1,6 +1,7 @@
 /* GENERAL */
 body {
   height: 3000px;
+  background-color: white;
 }
 
 .container-fluid {
@@ -24,8 +25,11 @@ a {
   font-weight: bolder;
   text-decoration: none;
   padding-right: 6px;
-  border-right: 1px solid black;
   white-space: nowrap;
+}
+
+.middle-nav ul li a{
+  border-right: 1px solid gray;
 }
 
 ul {
@@ -39,8 +43,9 @@ li {
 }
 
 /* NAV BAR  */
-.top-nav {
-  background-color: white;
+.top-nav1 {
+  position: relative;
+  z-index: 6;
 }
 
 .bottom-nav li a {
@@ -54,8 +59,31 @@ li {
 .bottom-nav-sticky {
   position: fixed;
   width: 100%;
+  max-width: 1310px;
   top: 0;
-  z-index: -1;
+  z-index: 5;
+}
+
+.footer-icons ul li a {
+  border-right: 0px;
+}
+
+.footer-icons ul li a i {
+  font-size: 20px;
+}
+
+..footer-icons ul li a:hover {
+  background-color: blue;
+}
+
+footer svg {
+  fill: red;
+}
+
+footer {
+  position: relative;
+  margin-top: 500px;
+  z-index: 1;
 }
 
 /* MEDIA QUERIES */
