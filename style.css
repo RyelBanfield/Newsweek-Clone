@@ -44,6 +44,7 @@ li {
 /* NAV BAR  */
 .top-nav1 {
   position: relative;
+  background-color: white;
   z-index: 6;
 }
 
@@ -82,11 +83,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
-  .top-nav1 {
-    display: none;
-  }
-}
+
 
 @media screen and (max-width: 575.98px) {
   .subscribe-btn,
