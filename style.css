@@ -19,10 +19,10 @@ body {
 
 a {
   color: black;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bolder;
   text-decoration: none;
-  padding-right: 7px;
+  padding-right: 6px;
   border-right: 1px solid black;
   white-space: nowrap;
 }
