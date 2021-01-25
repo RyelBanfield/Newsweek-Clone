@@ -40,7 +40,7 @@ li {
 
 /* NAV BAR  */
 .top-nav {
-  z-index: 1;
+  z-index: 0;
 }
 
 .bottom-nav li a {
