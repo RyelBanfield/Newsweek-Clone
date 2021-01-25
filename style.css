@@ -21,19 +21,15 @@ body {
 
 a {
   color: black;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bolder;
   text-decoration: none;
-  padding-right: 6px;
+  padding-right: 10px;
   white-space: nowrap;
 }
 
 .bottom-nav li a {
   color: gray;
-}
-
-.middle-nav ul li a {
-  border-right: 1px solid gray;
 }
 
 ul {
@@ -43,7 +39,6 @@ ul {
 
 li {
   list-style-type: none;
-  padding: 15px 20px 15px 0;
 }
 
 /* NAV BAR  */
@@ -69,7 +64,7 @@ li {
 }
 
 .footer-icons ul li a i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .footer-icons ul li a:hover {
@@ -88,7 +83,21 @@ footer {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
-  .top-nav {
+  .top-nav1 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .subscribe-btn,
+  .with-small a {
+    width: 80px;
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .with-small {
+    font-size: 0.7rem;
   }
 }
