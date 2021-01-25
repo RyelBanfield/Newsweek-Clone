@@ -25,9 +25,8 @@ Additional description about the project and its features.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@arikarim](https://github.com/arikarim)
+- LinkedIn: [AriKarim](https://www.linkedin.com/in/ari-karim-523bb81b3)
 
 ## Show your support
 
