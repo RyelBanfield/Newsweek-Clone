@@ -34,4 +34,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
+This Project is [MIT](lic.url) licensed.
+
 This project is [MIT](LICENSE) licensed.
+
