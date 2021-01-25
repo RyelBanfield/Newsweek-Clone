@@ -28,7 +28,11 @@ a {
   white-space: nowrap;
 }
 
-.middle-nav ul li a{
+.bottom-nav li a {
+  color: gray;
+}
+
+.middle-nav ul li a {
   border-right: 1px solid gray;
 }
 
@@ -48,10 +52,6 @@ li {
   z-index: 6;
 }
 
-.bottom-nav li a {
-  color: gray;
-}
-
 .bottom-nav li .text-black {
   color: black;
 }
@@ -65,14 +65,14 @@ li {
 }
 
 .footer-icons ul li a {
-  border-right: 0px;
+  border-right: 0;
 }
 
 .footer-icons ul li a i {
   font-size: 20px;
 }
 
-..footer-icons ul li a:hover {
+.footer-icons ul li a:hover {
   background-color: blue;
 }
 
