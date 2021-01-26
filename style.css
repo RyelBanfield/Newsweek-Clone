@@ -8,10 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.main-cont {
-  margin-top: 100px;
-}
-
 .icon-n {
   display: block;
   width: 29px;
@@ -68,7 +64,6 @@ footer svg {
 }
 
 footer {
-  margin-top: 500px;
   z-index: 1;
 }
 
