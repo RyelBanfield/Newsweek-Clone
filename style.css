@@ -1,12 +1,15 @@
 /* GENERAL */
 body {
   height: 3000px;
-  background-color: white;
 }
 
 .container-fluid {
   max-width: 1310px;
   overflow-x: hidden;
+}
+
+.main-cont {
+  margin-top: 100px;
 }
 
 .svg {
@@ -15,21 +18,12 @@ body {
 
 .subscribe-btn {
   width: 200px;
-  background-color: yellow;
-  border-radius: 24px;
 }
 
 a {
-  color: black;
   font-size: 16px;
-  font-weight: bolder;
-  text-decoration: none;
   padding-right: 10px;
   white-space: nowrap;
-}
-
-.bottom-nav li a {
-  color: gray;
 }
 
 ul {
@@ -43,17 +37,10 @@ li {
 
 /* NAV BAR  */
 .top-nav1 {
-  position: relative;
-  background-color: white;
   z-index: 6;
 }
 
-.bottom-nav li .text-black {
-  color: black;
-}
-
 .bottom-nav-sticky {
-  position: fixed;
   width: 100%;
   max-width: 1310px;
   top: 0;
@@ -64,12 +51,8 @@ li {
   border-right: 0;
 }
 
-.footer-icons ul li a i {
+.fab {
   font-size: 30px;
-}
-
-.footer-icons ul li a:hover {
-  background-color: blue;
 }
 
 footer svg {
@@ -77,13 +60,16 @@ footer svg {
 }
 
 footer {
-  position: relative;
   margin-top: 500px;
   z-index: 1;
 }
 
-/* MEDIA QUERIES */
+.image-float img {
+  width: 100px;
+  height: 90px;
+}
 
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 575.98px) {
   .subscribe-btn,
@@ -97,4 +83,50 @@ footer {
   .with-small {
     font-size: 0.7rem;
   }
+}
+
+.deco {
+  position: relative;
+}
+.deco::before {
+  top: calc(50% - 2px);
+}
+.deco::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  top: calc(50% - 2px);
+}
+.deco::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+.ai-c {
+  align-items: center;
+}
+.debate-item .image img,
+.opinion .image img {
+  width: 63px;
 }
