@@ -2,7 +2,7 @@
 
 > This is the 3rd collaborative Microverse project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/Screenshot.PNG)
 
 Additional description about the project and its features.
 
