@@ -1,7 +1,6 @@
 /* GENERAL */
 body {
   height: 3000px;
-  background-color: white;
 }
 
 .container-fluid {
@@ -15,21 +14,12 @@ body {
 
 .subscribe-btn {
   width: 200px;
-  background-color: yellow;
-  border-radius: 24px;
 }
 
 a {
-  color: black;
   font-size: 16px;
-  font-weight: bolder;
-  text-decoration: none;
   padding-right: 10px;
   white-space: nowrap;
-}
-
-.bottom-nav li a {
-  color: gray;
 }
 
 ul {
@@ -43,17 +33,10 @@ li {
 
 /* NAV BAR  */
 .top-nav1 {
-  position: relative;
-  background-color: white;
   z-index: 6;
 }
 
-.bottom-nav li .text-black {
-  color: black;
-}
-
 .bottom-nav-sticky {
-  position: fixed;
   width: 100%;
   max-width: 1310px;
   top: 0;
@@ -64,12 +47,8 @@ li {
   border-right: 0;
 }
 
-.footer-icons ul li a i {
+.fab {
   font-size: 30px;
-}
-
-.footer-icons ul li a:hover {
-  background-color: blue;
 }
 
 footer svg {
@@ -77,13 +56,11 @@ footer svg {
 }
 
 footer {
-  position: relative;
   margin-top: 500px;
   z-index: 1;
 }
 
 /* MEDIA QUERIES */
-
 
 @media screen and (max-width: 575.98px) {
   .subscribe-btn,
