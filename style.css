@@ -127,3 +127,9 @@ footer {
   width: 100px;
   height: 100px;
 }
+
+@media (min-width: 992px) {
+  .photo-large-screen {
+    height: 370px;;
+  }
+}
