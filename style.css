@@ -43,10 +43,6 @@ li {
   z-index: 5;
 }
 
-.footer-icons ul li a {
-  border-right: 0;
-}
-
 .fab {
   font-size: 30px;
 }
@@ -107,8 +103,6 @@ footer {
   z-index: 1;
   width: 32px;
   height: 32px;
-  background-color: #000;
-  color: #d6d6d6;
   font: bold 14px/32px "Roboto Condensed", sans-serif;
   margin: 6px auto;
 }
