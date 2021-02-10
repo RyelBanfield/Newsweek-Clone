@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Newsweek-Clone
 
 > This is the 3rd collaborative Microverse project.
